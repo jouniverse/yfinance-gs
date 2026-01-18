@@ -41,8 +41,10 @@
 **Returns just the price:** </br>
 _YAHOOFINANCE_PRICE(ticker)_ </br>
 =YAHOOFINANCE_PRICE("TCEHY") </br>
-=YAHOOFINANCE_PRICE("^GSPC") → S&P 500 Index </br>
-=YAHOOFINANCE_PRICE("^DJI") → Dow Jones Industrial Average
+=YAHOOFINANCE_PRICE("^GSPC")  </br>
+→ S&P 500 Index </br>
+=YAHOOFINANCE_PRICE("^DJI") </br>
+→ Dow Jones Industrial Average
 
 **Returns a row of key metadata:** </br>
 _YAHOOFINANCE_QUOTE(ticker, [headers])_ </br>
@@ -59,10 +61,10 @@ _YAHOOFINANCE_OHLCV_HISTORY(ticker, [headers], [limit])_ </br>
 **Returns historical OHLCV data with range and interval:** </br>
 _YAHOOFINANCE_OHLCV_HISTORY(ticker, [headers], [limit], [range], [interval])_
 
-=YAHOOFINANCE_OHLCV_HISTORY("JPM", TRUE) </br> → Today's 1-min data
-=YAHOOFINANCE_OHLCV_HISTORY("GOOG", TRUE, 100) </br> → Last 100 minutes
-=YAHOOFINANCE_OHLCV_HISTORY("XOP", TRUE, , "5d", "15m") </br> → 5 days, 15-min intervals
-=YAHOOFINANCE_OHLCV_HISTORY("SPY", TRUE, , "1y", "1d")       </br> → 1 year of daily data
+=YAHOOFINANCE_OHLCV_HISTORY("JPM", TRUE) </br> → Today's 1-min data </br>
+=YAHOOFINANCE_OHLCV_HISTORY("GOOG", TRUE, 100) </br> → Last 100 minutes </br>
+=YAHOOFINANCE_OHLCV_HISTORY("XOP", TRUE, , "5d", "15m") </br> → 5 days, 15-min intervals </br>
+=YAHOOFINANCE_OHLCV_HISTORY("SPY", TRUE, , "1y", "1d")       </br> → 1 year of daily data </br>
 =YAHOOFINANCE_OHLCV_HISTORY("AAPL", TRUE, 52, "1y", "1wk")   </br> → Last year, weekly data
 
 **Valid Ranges & Intervals:** 
@@ -83,7 +85,7 @@ _YAHOOFINANCE_OHLCV_HISTORY(ticker, [headers], [limit], [range], [interval])_
 
 
 **Returns a specific metadata field	:** </br>
-_YAHOOFINANCE_META(ticker, field)_
+_YAHOOFINANCE_META(ticker, field)_ </br>
 =YAHOOFINANCE_META("USO", "52WeekHigh")
 
 #### Returned Columns and Fields
