@@ -13,7 +13,7 @@
 
 ### Supported Instruments
 
-| Type | Example Symbols |
+| Type | Example Tickers/Symbols |
 |------|-----------------|
 | Stocks | AAPL, GOOG, MSFT, TSLA |
 | ETFs | SPY, USO, OIH, XOP |
