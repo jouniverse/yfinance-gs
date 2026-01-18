@@ -4,7 +4,7 @@
 
  ### General Description
  
- Functions very similarly to **GOOGLEFINANCE**<sup>1</sup> but uses Yahoo Finance as the data source. The script has limited functionality compared to the **yfinance** Python library<sup>2</sup>, but it is useful for quick lookups and historical data retrieval directly within Google Sheets. Generally it can be noted, that better alternatives for Yahoo Finance API may exist<sup>3,4</sup>.
+ Functions very similarly to **GOOGLEFINANCE**<sup>1</sup> but uses **Yahoo Finance** as the data source. The script has limited functionality compared to the **yfinance** Python library<sup>2</sup>, but it is useful for quick lookups and historical data retrieval directly within Google Sheets. Generally it can be noted, that better alternatives for Yahoo Finance API may exist<sup>3,4</sup>.
 
 ### Features
 - Fetches real-time financial data from Yahoo Finance.
