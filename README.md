@@ -100,6 +100,8 @@ price, name, currency, exchange, type, previousClose, dayHigh, dayLow, volume, 5
 
 #### Examples in Google Sheets
 
+---------------------------------------------------------------
+
 ![Screenshot Example 1](./imgs/screenshot-1.png)
 
 ![Screenshot Example 2](./imgs/screenshot-2.png)
